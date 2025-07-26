@@ -1,0 +1,1182 @@
+[2025-07-26T09:10:33.791+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:10:33.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:10:33.797+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:10:33.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:10:33.843+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:10:33.832+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:10:33.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:10:33.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.116 seconds
+[2025-07-26T09:11:04.060+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:11:04.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:11:04.068+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:11:04.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:11:04.090+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:11:04.085+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:11:04.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:11:04.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.078 seconds
+[2025-07-26T09:11:34.798+0000] {processor.py:186} INFO - Started process (PID=347) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:11:34.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:11:34.803+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:11:34.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:11:34.821+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:11:34.817+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:11:34.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:11:34.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.056 seconds
+[2025-07-26T09:12:05.665+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:12:05.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:12:05.668+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:12:05.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:12:05.680+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:12:05.677+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:12:05.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:12:05.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:12:36.508+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:12:36.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:12:36.516+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:12:36.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:12:36.542+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:12:36.536+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:12:36.544+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:12:36.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.076 seconds
+[2025-07-26T09:13:07.078+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:13:07.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:13:07.082+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:13:07.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:13:07.103+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:13:07.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:13:07.105+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:13:07.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.056 seconds
+[2025-07-26T09:13:37.503+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:13:37.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:13:37.506+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:13:37.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:13:37.523+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:13:37.519+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:13:37.524+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:13:37.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:14:08.035+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:14:08.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:14:08.039+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:14:08.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:14:08.066+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:14:08.062+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:14:08.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:14:08.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.057 seconds
+[2025-07-26T09:14:38.551+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:14:38.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:14:38.556+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:14:38.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:14:38.581+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:14:38.574+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:14:38.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:14:38.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.071 seconds
+[2025-07-26T09:15:09.079+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:15:09.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:15:09.082+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:15:09.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:15:09.097+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:15:09.093+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:15:09.098+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:15:09.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.044 seconds
+[2025-07-26T09:15:40.058+0000] {processor.py:186} INFO - Started process (PID=523) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:15:40.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:15:40.062+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:15:40.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:15:40.081+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:15:40.076+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:15:40.083+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:15:40.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.061 seconds
+[2025-07-26T09:16:10.695+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:16:10.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:16:10.699+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:16:10.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:16:10.717+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:16:10.712+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:16:10.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:16:10.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.059 seconds
+[2025-07-26T09:16:41.134+0000] {processor.py:186} INFO - Started process (PID=608) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:16:41.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:16:41.138+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:16:41.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:16:41.153+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:16:41.150+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:16:41.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:16:41.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.053 seconds
+[2025-07-26T09:17:11.615+0000] {processor.py:186} INFO - Started process (PID=631) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:17:11.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:17:11.620+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:17:11.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:17:11.636+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:17:11.632+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:17:11.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:17:11.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.059 seconds
+[2025-07-26T09:17:42.162+0000] {processor.py:186} INFO - Started process (PID=654) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:17:42.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:17:42.165+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:17:42.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:17:42.178+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:17:42.174+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:17:42.179+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:17:42.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.047 seconds
+[2025-07-26T09:18:12.651+0000] {processor.py:186} INFO - Started process (PID=677) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:18:12.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:18:12.654+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:18:12.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:18:12.667+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:18:12.664+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:18:12.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:18:12.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.038 seconds
+[2025-07-26T09:18:43.210+0000] {processor.py:186} INFO - Started process (PID=700) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:18:43.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:18:43.213+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:18:43.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:18:43.226+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:18:43.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:18:43.227+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:18:43.245+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.040 seconds
+[2025-07-26T09:19:13.726+0000] {processor.py:186} INFO - Started process (PID=723) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:19:13.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:19:13.729+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:19:13.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:19:13.742+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:19:13.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:19:13.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:19:13.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.038 seconds
+[2025-07-26T09:19:44.163+0000] {processor.py:186} INFO - Started process (PID=746) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:19:44.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:19:44.167+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:19:44.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:19:44.181+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:19:44.177+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:19:44.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:19:44.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:20:14.684+0000] {processor.py:186} INFO - Started process (PID=769) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:20:14.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:20:14.687+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:20:14.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:20:14.700+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:20:14.697+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:20:14.702+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:20:14.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.040 seconds
+[2025-07-26T09:20:45.257+0000] {processor.py:186} INFO - Started process (PID=802) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:20:45.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:20:45.261+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:20:45.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:20:45.282+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:20:45.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:20:45.284+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:20:45.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.057 seconds
+[2025-07-26T09:21:15.691+0000] {processor.py:186} INFO - Started process (PID=839) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:21:15.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:21:15.695+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:21:15.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:21:15.709+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:21:15.705+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:21:15.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:21:15.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.042 seconds
+[2025-07-26T09:21:46.210+0000] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:21:46.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:21:46.213+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:21:46.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:21:46.230+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:21:46.225+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:21:46.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:21:46.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.048 seconds
+[2025-07-26T09:22:16.732+0000] {processor.py:186} INFO - Started process (PID=885) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:22:16.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:22:16.736+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:22:16.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:22:16.750+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:22:16.746+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:22:16.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:22:16.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:22:47.171+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:22:47.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:22:47.176+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:22:47.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:22:47.199+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:22:47.193+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:22:47.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:22:47.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.064 seconds
+[2025-07-26T09:23:17.701+0000] {processor.py:186} INFO - Started process (PID=923) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:23:17.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:23:17.705+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:23:17.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:23:17.723+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:23:17.719+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:23:17.725+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:23:17.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.055 seconds
+[2025-07-26T09:23:48.196+0000] {processor.py:186} INFO - Started process (PID=946) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:23:48.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:23:48.200+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:23:48.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:23:48.217+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:23:48.213+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:23:48.219+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:23:48.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.051 seconds
+[2025-07-26T09:24:18.680+0000] {processor.py:186} INFO - Started process (PID=970) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:24:18.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:24:18.685+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:24:18.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:24:18.703+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:24:18.699+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:24:18.705+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:24:18.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.054 seconds
+[2025-07-26T09:24:49.236+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:24:49.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:24:49.241+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:24:49.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:24:49.263+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:24:49.258+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:24:49.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:24:49.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.064 seconds
+[2025-07-26T09:25:19.753+0000] {processor.py:186} INFO - Started process (PID=1016) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:25:19.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:25:19.756+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:25:19.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:25:19.772+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:25:19.768+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:25:19.773+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:25:19.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.048 seconds
+[2025-07-26T09:25:50.255+0000] {processor.py:186} INFO - Started process (PID=1045) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:25:50.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:25:50.259+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:25:50.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:25:50.278+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:25:50.273+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:25:50.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:25:50.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.054 seconds
+[2025-07-26T09:26:20.742+0000] {processor.py:186} INFO - Started process (PID=1080) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:26:20.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:26:20.746+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:26:20.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:26:20.760+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:26:20.756+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:26:20.761+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:26:20.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.042 seconds
+[2025-07-26T09:26:51.197+0000] {processor.py:186} INFO - Started process (PID=1103) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:26:51.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:26:51.200+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:26:51.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:26:51.213+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:26:51.210+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:26:51.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:26:51.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.040 seconds
+[2025-07-26T09:27:21.618+0000] {processor.py:186} INFO - Started process (PID=1126) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:27:21.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:27:21.621+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:27:21.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:27:21.634+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:27:21.631+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:27:21.635+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:27:21.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:27:52.128+0000] {processor.py:186} INFO - Started process (PID=1149) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:27:52.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:27:52.131+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:27:52.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:27:52.144+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:27:52.141+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:27:52.145+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:27:52.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.039 seconds
+[2025-07-26T09:28:22.581+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:28:22.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:28:22.584+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:28:22.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:28:22.597+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:28:22.594+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:28:22.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:28:22.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.038 seconds
+[2025-07-26T09:28:52.999+0000] {processor.py:186} INFO - Started process (PID=1195) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:28:52.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:28:53.002+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:28:53.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:28:53.017+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:28:53.014+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:28:53.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:28:53.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.041 seconds
+[2025-07-26T09:29:23.535+0000] {processor.py:186} INFO - Started process (PID=1218) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:29:23.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:29:23.538+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:29:23.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:29:23.552+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:29:23.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:29:23.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:29:23.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.039 seconds
+[2025-07-26T09:29:54.026+0000] {processor.py:186} INFO - Started process (PID=1241) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:29:54.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:29:54.029+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:29:54.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:29:54.042+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:29:54.038+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:29:54.043+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:29:54.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.038 seconds
+[2025-07-26T09:30:24.491+0000] {processor.py:186} INFO - Started process (PID=1264) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:30:24.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:30:24.500+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:30:24.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:30:24.531+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:30:24.523+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:30:24.533+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:30:24.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.085 seconds
+[2025-07-26T09:30:55.082+0000] {processor.py:186} INFO - Started process (PID=1282) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:30:55.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:30:55.086+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:30:55.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:30:55.105+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:30:55.101+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:30:55.107+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:30:55.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.053 seconds
+[2025-07-26T09:31:25.529+0000] {processor.py:186} INFO - Started process (PID=1317) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:31:25.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:31:25.534+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:31:25.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:31:25.552+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:31:25.547+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:31:25.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:31:25.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.049 seconds
+[2025-07-26T09:31:56.070+0000] {processor.py:186} INFO - Started process (PID=1340) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:31:56.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:31:56.073+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:31:56.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:31:56.086+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:31:56.083+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:31:56.088+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:31:56.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.038 seconds
+[2025-07-26T09:32:26.623+0000] {processor.py:186} INFO - Started process (PID=1363) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:32:26.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:32:26.626+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:32:26.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:32:26.646+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:32:26.640+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:32:26.648+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:32:26.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.048 seconds
+[2025-07-26T09:32:57.070+0000] {processor.py:186} INFO - Started process (PID=1386) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:32:57.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:32:57.073+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:32:57.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:32:57.085+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:32:57.082+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:32:57.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:32:57.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.039 seconds
+[2025-07-26T09:33:27.632+0000] {processor.py:186} INFO - Started process (PID=1409) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:33:27.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:33:27.637+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:33:27.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:33:27.666+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:33:27.658+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:33:27.669+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:33:27.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.082 seconds
+[2025-07-26T09:33:58.295+0000] {processor.py:186} INFO - Started process (PID=1437) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:33:58.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:33:58.325+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:33:58.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:33:58.432+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:33:58.419+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:33:58.438+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:33:58.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.247 seconds
+[2025-07-26T09:34:29.069+0000] {processor.py:186} INFO - Started process (PID=1460) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:34:29.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:34:29.075+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:34:29.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:34:29.107+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:34:29.099+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:34:29.110+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:34:29.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.089 seconds
+[2025-07-26T09:34:59.591+0000] {processor.py:186} INFO - Started process (PID=1483) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:34:59.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:34:59.599+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:34:59.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:34:59.637+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:34:59.628+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:34:59.639+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:34:59.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.087 seconds
+[2025-07-26T09:35:30.115+0000] {processor.py:186} INFO - Started process (PID=1506) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:35:30.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:35:30.119+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:35:30.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:35:30.137+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:35:30.132+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:35:30.139+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:35:30.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.053 seconds
+[2025-07-26T09:36:02.115+0000] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:36:02.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:36:02.139+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:36:02.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:36:02.361+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:36:02.328+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:36:02.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:36:02.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.412 seconds
+[2025-07-26T09:36:33.309+0000] {processor.py:186} INFO - Started process (PID=1556) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:36:33.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:36:33.314+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:36:33.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:36:33.339+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:36:33.333+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:36:33.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:36:33.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.075 seconds
+[2025-07-26T09:37:04.089+0000] {processor.py:186} INFO - Started process (PID=1579) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:37:04.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:37:04.096+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:37:04.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:37:04.126+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:37:04.119+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:37:04.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:37:04.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.081 seconds
+[2025-07-26T09:37:34.656+0000] {processor.py:186} INFO - Started process (PID=1607) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:37:34.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:37:34.664+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:37:34.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:37:34.693+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:37:34.685+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:37:34.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:37:34.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.099 seconds
+[2025-07-26T09:38:05.312+0000] {processor.py:186} INFO - Started process (PID=1645) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:38:05.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:38:05.320+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:38:05.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:38:05.370+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:38:05.355+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:38:05.377+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:38:05.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.130 seconds
+[2025-07-26T09:38:35.952+0000] {processor.py:186} INFO - Started process (PID=1680) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:38:35.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:38:35.958+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:38:35.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:38:35.981+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:38:35.976+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:38:35.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:38:36.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.073 seconds
+[2025-07-26T09:39:06.578+0000] {processor.py:186} INFO - Started process (PID=1703) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:39:06.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:39:06.584+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:39:06.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:39:06.606+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:39:06.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:39:06.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:39:06.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.063 seconds
+[2025-07-26T09:39:37.198+0000] {processor.py:186} INFO - Started process (PID=1726) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:39:37.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:39:37.203+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:39:37.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:39:37.230+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:39:37.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:39:37.233+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:39:37.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.085 seconds
+[2025-07-26T09:40:07.973+0000] {processor.py:186} INFO - Started process (PID=1749) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:40:07.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:40:07.982+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:40:07.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:40:08.021+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:40:08.011+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:40:08.024+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:40:08.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.103 seconds
+[2025-07-26T09:40:38.648+0000] {processor.py:186} INFO - Started process (PID=1772) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:40:38.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:40:38.660+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:40:38.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:40:38.719+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:40:38.708+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:40:38.723+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:40:38.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.130 seconds
+[2025-07-26T09:42:12.185+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:42:12.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:42:12.189+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:42:12.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:42:12.209+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:42:12.202+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:42:12.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:42:12.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.055 seconds
+[2025-07-26T09:42:42.543+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:42:42.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:42:42.546+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:42:42.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:42:42.560+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:42:42.556+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:42:42.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:42:42.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.043 seconds
+[2025-07-26T09:43:13.027+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:43:13.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:43:13.030+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:43:13.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:43:13.044+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:43:13.040+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:43:13.045+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:43:13.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.043 seconds
+[2025-07-26T09:43:43.568+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:43:43.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:43:43.576+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:43:43.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:43:43.614+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:43:43.605+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:43:43.617+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:43:43.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.097 seconds
+[2025-07-26T09:44:13.748+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:44:13.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:44:13.755+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:44:13.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:44:13.787+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:44:13.780+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:44:13.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:44:13.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.085 seconds
+[2025-07-26T09:44:44.910+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:44:44.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:44:44.917+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:44:44.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:44:44.939+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:44:44.933+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:44:44.941+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:44:44.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.064 seconds
+[2025-07-26T09:45:15.538+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:45:15.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:45:15.546+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:45:15.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:45:15.589+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:45:15.575+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:45:15.592+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:45:15.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.110 seconds
+[2025-07-26T09:45:46.247+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:45:46.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:45:46.251+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:45:46.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:45:46.273+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:45:46.268+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:45:46.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:45:46.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.057 seconds
+[2025-07-26T09:46:17.014+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:46:17.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:46:17.025+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:46:17.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:46:17.062+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:46:17.051+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:46:17.064+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:46:17.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.104 seconds
+[2025-07-26T09:46:47.661+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:46:47.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:46:47.666+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:46:47.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:46:47.692+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:46:47.685+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:46:47.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:46:47.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.073 seconds
+[2025-07-26T09:47:18.377+0000] {processor.py:186} INFO - Started process (PID=418) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:47:18.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:47:18.387+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:47:18.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:47:18.420+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:47:18.412+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:47:18.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:47:18.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.089 seconds
+[2025-07-26T09:47:48.763+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:47:48.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:47:48.771+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:47:48.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:47:48.803+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:47:48.794+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:47:48.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:47:48.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.093 seconds
+[2025-07-26T09:48:12.728+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:48:12.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:48:12.738+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:48:12.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:48:12.784+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:48:12.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.100 seconds
+[2025-07-26T09:48:43.147+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:48:43.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:48:43.156+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:48:43.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:48:43.178+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:48:43.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.073 seconds
+[2025-07-26T09:49:13.667+0000] {processor.py:186} INFO - Started process (PID=536) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:49:13.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:49:13.673+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:49:13.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:49:13.690+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:49:13.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.049 seconds
+[2025-07-26T09:49:44.316+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:49:44.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:49:44.319+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:49:44.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:49:44.337+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:49:44.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.049 seconds
+[2025-07-26T09:50:06.664+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:50:06.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:50:06.667+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:50:06.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:50:06.706+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:50:06.698+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:50:06.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:50:06.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.079 seconds
+[2025-07-26T09:50:37.191+0000] {processor.py:186} INFO - Started process (PID=600) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:50:37.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:50:37.196+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:50:37.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:50:37.227+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:50:37.220+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:50:37.229+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:50:37.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.082 seconds
+[2025-07-26T09:51:07.869+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:51:07.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:51:07.874+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:51:07.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:51:07.902+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:51:07.895+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:51:07.905+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:51:07.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.081 seconds
+[2025-07-26T09:51:38.699+0000] {processor.py:186} INFO - Started process (PID=656) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:51:38.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:51:38.704+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:51:38.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:51:38.728+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:51:38.722+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:51:38.730+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:51:38.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.081 seconds
+[2025-07-26T09:52:09.531+0000] {processor.py:186} INFO - Started process (PID=700) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:52:09.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:52:09.535+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:52:09.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:52:09.558+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:52:09.552+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:52:09.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:52:09.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.062 seconds
+[2025-07-26T09:52:40.006+0000] {processor.py:186} INFO - Started process (PID=722) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:52:40.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:52:40.011+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:52:40.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:52:40.046+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:52:40.037+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:52:40.050+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:52:40.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.097 seconds
+[2025-07-26T09:53:10.528+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:53:10.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:53:10.533+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:53:10.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:53:10.568+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:53:10.558+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:53:10.570+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:53:10.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.083 seconds
+[2025-07-26T09:53:41.190+0000] {processor.py:186} INFO - Started process (PID=761) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:53:41.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:53:41.195+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:53:41.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:53:41.231+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:53:41.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:53:41.233+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:53:41.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.086 seconds
+[2025-07-26T09:54:11.689+0000] {processor.py:186} INFO - Started process (PID=808) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:54:11.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:54:11.694+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:54:11.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:54:11.728+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:54:11.721+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:54:11.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:54:11.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.080 seconds
+[2025-07-26T09:54:42.400+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:54:42.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:54:42.407+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:54:42.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:54:42.444+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:54:42.435+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:54:42.447+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:54:42.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.101 seconds
+[2025-07-26T09:55:13.157+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/task.py
+[2025-07-26T09:55:13.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2025-07-26T09:55:13.161+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:55:13.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2025-07-26T09:55:13.193+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:55:13.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/task.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/task.py", line 2, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-07-26T09:55:13.196+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/task.py
+[2025-07-26T09:55:13.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/task.py took 0.087 seconds

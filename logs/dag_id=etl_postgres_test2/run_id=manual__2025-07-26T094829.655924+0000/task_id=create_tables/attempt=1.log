@@ -1,0 +1,19 @@
+[2025-07-26T09:48:32.446+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-26T09:48:32.494+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres_test2.create_tables manual__2025-07-26T09:48:29.655924+00:00 [queued]>
+[2025-07-26T09:48:32.525+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres_test2.create_tables manual__2025-07-26T09:48:29.655924+00:00 [queued]>
+[2025-07-26T09:48:32.529+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-26T09:48:32.596+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): create_tables> on 2025-07-26 09:48:29.655924+00:00
+[2025-07-26T09:48:32.622+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=493) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T09:48:32.618+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres_test2', 'create_tables', 'manual__2025-07-26T09:48:29.655924+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/my_dags.py', '--cfg-path', '/tmp/tmpzpl3c8y0']
+[2025-07-26T09:48:32.625+0000] {standard_task_runner.py:72} INFO - Started process 494 to run task
+[2025-07-26T09:48:32.626+0000] {standard_task_runner.py:105} INFO - Job 13: Subtask create_tables
+[2025-07-26T09:48:32.783+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres_test2.create_tables manual__2025-07-26T09:48:29.655924+00:00 [running]> on host 2f3d4b2b9190
+[2025-07-26T09:48:33.036+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres_test2' AIRFLOW_CTX_TASK_ID='create_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T09:48:29.655924+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T09:48:29.655924+00:00'
+[2025-07-26T09:48:33.039+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-26T09:48:33.111+0000] {my_dags.py:369} INFO - All tables created successfully
+[2025-07-26T09:48:33.112+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-26T09:48:33.132+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-26T09:48:33.133+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres_test2, task_id=create_tables, run_id=manual__2025-07-26T09:48:29.655924+00:00, execution_date=20250726T094829, start_date=20250726T094832, end_date=20250726T094833
+[2025-07-26T09:48:33.206+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-26T09:48:33.288+0000] {taskinstance.py:3895} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T09:48:33.293+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

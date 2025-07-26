@@ -1,0 +1,19 @@
+[2025-07-22T04:25:46.794+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-22T04:25:46.833+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.calculate_prime_numbers manual__2025-07-22T04:25:44.696391+00:00 [queued]>
+[2025-07-22T04:25:46.849+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.calculate_prime_numbers manual__2025-07-22T04:25:44.696391+00:00 [queued]>
+[2025-07-22T04:25:46.851+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-07-22T04:25:46.873+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): calculate_prime_numbers> on 2025-07-22 04:25:44.696391+00:00
+[2025-07-22T04:25:46.886+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=193) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-22T04:25:46.889+0000] {standard_task_runner.py:72} INFO - Started process 195 to run task
+[2025-07-22T04:25:46.886+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'my_dag', 'calculate_prime_numbers', 'manual__2025-07-22T04:25:44.696391+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/my_dags.py', '--cfg-path', '/tmp/tmpmkqx0ncr']
+[2025-07-22T04:25:46.891+0000] {standard_task_runner.py:105} INFO - Job 6: Subtask calculate_prime_numbers
+[2025-07-22T04:25:47.002+0000] {task_command.py:467} INFO - Running <TaskInstance: my_dag.calculate_prime_numbers manual__2025-07-22T04:25:44.696391+00:00 [running]> on host 163049dd0076
+[2025-07-22T04:25:47.174+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='calculate_prime_numbers' AIRFLOW_CTX_EXECUTION_DATE='2025-07-22T04:25:44.696391+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-22T04:25:44.696391+00:00'
+[2025-07-22T04:25:47.176+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-22T04:25:47.194+0000] {logging_mixin.py:190} INFO - Prime numbers up to 10: [2, 3, 5, 7]
+[2025-07-22T04:25:47.195+0000] {python.py:240} INFO - Done. Returned value was: [2, 3, 5, 7]
+[2025-07-22T04:25:47.222+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-22T04:25:47.223+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=calculate_prime_numbers, run_id=manual__2025-07-22T04:25:44.696391+00:00, execution_date=20250722T042544, start_date=20250722T042546, end_date=20250722T042547
+[2025-07-22T04:25:47.267+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-22T04:25:47.289+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-22T04:25:47.293+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

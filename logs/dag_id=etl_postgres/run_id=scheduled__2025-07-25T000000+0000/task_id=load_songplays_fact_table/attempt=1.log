@@ -1,0 +1,20 @@
+[2025-07-25T01:41:59.071+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-25T01:42:00.176+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres.load_songplays_fact_table scheduled__2025-07-25T00:00:00+00:00 [queued]>
+[2025-07-25T01:42:01.051+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres.load_songplays_fact_table scheduled__2025-07-25T00:00:00+00:00 [queued]>
+[2025-07-25T01:42:01.066+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-25T01:42:01.200+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_songplays_fact_table> on 2025-07-25 00:00:00+00:00
+[2025-07-25T01:42:01.247+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres', 'load_songplays_fact_table', 'scheduled__2025-07-25T00:00:00+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpfu537tvw']
+[2025-07-25T01:42:01.253+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=212) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-25T01:42:01.253+0000] {standard_task_runner.py:105} INFO - Job 89: Subtask load_songplays_fact_table
+[2025-07-25T01:42:01.256+0000] {standard_task_runner.py:72} INFO - Started process 215 to run task
+[2025-07-25T01:42:01.597+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres.load_songplays_fact_table scheduled__2025-07-25T00:00:00+00:00 [running]> on host 0c6a6447a272
+[2025-07-25T01:42:02.570+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres' AIRFLOW_CTX_TASK_ID='load_songplays_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-25T00:00:00+00:00'
+[2025-07-25T01:42:02.653+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-25T01:42:02.894+0000] {etl_dag.py:49} INFO - Loading songplays fact table
+[2025-07-25T01:42:02.901+0000] {etl_dag.py:52} INFO - Songplays fact table loaded successfully
+[2025-07-25T01:42:02.907+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-25T01:42:03.005+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-25T01:42:03.015+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres, task_id=load_songplays_fact_table, run_id=scheduled__2025-07-25T00:00:00+00:00, execution_date=20250725T000000, start_date=20250725T014200, end_date=20250725T014203
+[2025-07-25T01:42:03.333+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-25T01:42:03.445+0000] {taskinstance.py:3895} INFO - 4 downstream tasks scheduled from follow-on schedule check
+[2025-07-25T01:42:03.463+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,20 @@
+[2025-07-22T09:12:39.711+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-22T09:12:39.743+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres.stage_events manual__2025-07-22T09:12:36.674628+00:00 [queued]>
+[2025-07-22T09:12:39.756+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres.stage_events manual__2025-07-22T09:12:36.674628+00:00 [queued]>
+[2025-07-22T09:12:39.757+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-22T09:12:39.774+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): stage_events> on 2025-07-22 09:12:36.674628+00:00
+[2025-07-22T09:12:39.784+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=243) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-22T09:12:39.786+0000] {standard_task_runner.py:72} INFO - Started process 244 to run task
+[2025-07-22T09:12:39.784+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres', 'stage_events', 'manual__2025-07-22T09:12:36.674628+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpders385_']
+[2025-07-22T09:12:39.787+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask stage_events
+[2025-07-22T09:12:39.857+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres.stage_events manual__2025-07-22T09:12:36.674628+00:00 [running]> on host 8bfe7d387f3f
+[2025-07-22T09:12:39.931+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres' AIRFLOW_CTX_TASK_ID='stage_events' AIRFLOW_CTX_EXECUTION_DATE='2025-07-22T09:12:36.674628+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-22T09:12:36.674628+00:00'
+[2025-07-22T09:12:39.933+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-22T09:12:39.962+0000] {etl_dag.py:163} INFO - Staging events data
+[2025-07-22T09:12:39.963+0000] {etl_dag.py:185} INFO - Events data staged successfully
+[2025-07-22T09:12:39.964+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-22T09:12:39.978+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-22T09:12:39.979+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres, task_id=stage_events, run_id=manual__2025-07-22T09:12:36.674628+00:00, execution_date=20250722T091236, start_date=20250722T091239, end_date=20250722T091239
+[2025-07-22T09:12:40.043+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-22T09:12:40.069+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-22T09:12:40.072+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

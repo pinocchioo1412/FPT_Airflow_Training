@@ -1,0 +1,163 @@
+[2025-07-26T09:51:47.373+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-26T09:51:47.398+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres_test2.stage_songs manual__2025-07-26T09:51:44.063386+00:00 [queued]>
+[2025-07-26T09:51:47.410+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres_test2.stage_songs manual__2025-07-26T09:51:44.063386+00:00 [queued]>
+[2025-07-26T09:51:47.411+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-26T09:51:47.430+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): stage_songs> on 2025-07-26 09:51:44.063386+00:00
+[2025-07-26T09:51:47.441+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=664) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T09:51:47.444+0000] {standard_task_runner.py:72} INFO - Started process 667 to run task
+[2025-07-26T09:51:47.441+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres_test2', 'stage_songs', 'manual__2025-07-26T09:51:44.063386+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/my_dags.py', '--cfg-path', '/tmp/tmpq8sy_3zo']
+[2025-07-26T09:51:47.445+0000] {standard_task_runner.py:105} INFO - Job 20: Subtask stage_songs
+[2025-07-26T09:51:47.552+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres_test2.stage_songs manual__2025-07-26T09:51:44.063386+00:00 [running]> on host 2f3d4b2b9190
+[2025-07-26T09:51:47.720+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres_test2' AIRFLOW_CTX_TASK_ID='stage_songs' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T09:51:44.063386+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T09:51:44.063386+00:00'
+[2025-07-26T09:51:47.722+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-26T09:51:47.808+0000] {logging_mixin.py:190} INFO - Found 71 song files
+[2025-07-26T09:51:47.819+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAAW128F429D538.json
+[2025-07-26T09:51:47.828+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAABD128F429CF47.json
+[2025-07-26T09:51:47.838+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAADZ128F9348C2E.json
+[2025-07-26T09:51:47.847+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAEF128F4273421.json
+[2025-07-26T09:51:47.856+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAFD128F92F423A.json
+[2025-07-26T09:51:47.864+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAMO128F1481E7F.json
+[2025-07-26T09:51:47.873+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAMQ128F1460CD3.json
+[2025-07-26T09:51:47.882+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAPK128E0786D96.json
+[2025-07-26T09:51:47.890+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAARJ128F9320760.json
+[2025-07-26T09:51:47.899+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAVG12903CFA543.json
+[2025-07-26T09:51:47.908+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/A/TRAAAVO128F93133D4.json
+[2025-07-26T09:51:47.916+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABCL128F4286650.json
+[2025-07-26T09:51:47.925+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABDL12903CAABBA.json
+[2025-07-26T09:51:47.934+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABJL12903CDCF1A.json
+[2025-07-26T09:51:47.943+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABJV128F1460C49.json
+[2025-07-26T09:51:47.951+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABLR128F423B7E3.json
+[2025-07-26T09:51:47.958+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABNV128F425CEE1.json
+[2025-07-26T09:51:47.968+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABRB128F9306DD5.json
+[2025-07-26T09:51:47.979+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABVM128F92CA9DC.json
+[2025-07-26T09:51:47.987+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABXG128F9318EBD.json
+[2025-07-26T09:51:47.996+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABYN12903CFD305.json
+[2025-07-26T09:51:48.007+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/B/TRAABYW128F4244559.json
+[2025-07-26T09:51:48.016+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACCG128F92E8A55.json
+[2025-07-26T09:51:48.026+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACER128F4290F96.json
+[2025-07-26T09:51:48.037+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACFV128F935E50B.json
+[2025-07-26T09:51:48.049+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACHN128F1489601.json
+[2025-07-26T09:51:48.061+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACIW12903CC0F6D.json
+[2025-07-26T09:51:48.072+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACLV128F427E123.json
+[2025-07-26T09:51:48.083+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACNS128F14A2DF5.json
+[2025-07-26T09:51:48.095+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACOW128F933E35F.json
+[2025-07-26T09:51:48.105+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACPE128F421C1B9.json
+[2025-07-26T09:51:48.114+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACQT128F9331780.json
+[2025-07-26T09:51:48.124+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACSL128F93462F4.json
+[2025-07-26T09:51:48.135+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACTB12903CAAF15.json
+[2025-07-26T09:51:48.146+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACVS128E078BE39.json
+[2025-07-26T09:51:48.157+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/A/C/TRAACZK128F4243829.json
+[2025-07-26T09:51:48.167+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABACN128F425B784.json
+[2025-07-26T09:51:48.180+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAFJ128F42AF24E.json
+[2025-07-26T09:51:48.194+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAFP128F931E9A1.json
+[2025-07-26T09:51:48.207+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAIO128F42938F9.json
+[2025-07-26T09:51:48.220+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABATO128F42627E9.json
+[2025-07-26T09:51:48.240+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAVQ12903CBF7E0.json
+[2025-07-26T09:51:48.258+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAWW128F4250A31.json
+[2025-07-26T09:51:48.277+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAXL128F424FC50.json
+[2025-07-26T09:51:48.289+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAXR128F426515F.json
+[2025-07-26T09:51:48.302+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAXV128F92F6AE3.json
+[2025-07-26T09:51:48.314+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/A/TRABAZH128F930419A.json
+[2025-07-26T09:51:48.326+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBAM128F429D223.json
+[2025-07-26T09:51:48.336+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBBV128F42967D7.json
+[2025-07-26T09:51:48.348+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBJE12903CDB442.json
+[2025-07-26T09:51:48.358+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBKX128F4285205.json
+[2025-07-26T09:51:48.367+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBLU128F93349CF.json
+[2025-07-26T09:51:48.377+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBNP128F932546F.json
+[2025-07-26T09:51:48.386+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBOP128F931B50D.json
+[2025-07-26T09:51:48.395+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBOR128F4286200.json
+[2025-07-26T09:51:48.404+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBTA128F933D304.json
+[2025-07-26T09:51:48.413+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBVJ128F92F7EAA.json
+[2025-07-26T09:51:48.423+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBXU128F92FEF48.json
+[2025-07-26T09:51:48.433+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/B/TRABBZN12903CD9297.json
+[2025-07-26T09:51:48.443+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCAJ12903CDFCC2.json
+[2025-07-26T09:51:48.455+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCEC128F426456E.json
+[2025-07-26T09:51:48.467+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCEI128F424C983.json
+[2025-07-26T09:51:48.479+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCFL128F149BB0D.json
+[2025-07-26T09:51:48.491+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCIX128F4265903.json
+[2025-07-26T09:51:48.507+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCKL128F423A778.json
+[2025-07-26T09:51:48.521+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCPZ128F4275C32.json
+[2025-07-26T09:51:48.533+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCRU128F423F449.json
+[2025-07-26T09:51:48.546+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCTK128F934B224.json
+[2025-07-26T09:51:48.559+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCUQ128E0783E2B.json
+[2025-07-26T09:51:48.574+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCXB128F4286BD3.json
+[2025-07-26T09:51:48.586+0000] {logging_mixin.py:190} INFO - Processing song file: /opt/***/data/song_data/A/B/C/TRABCYE128F934CE1D.json
+[2025-07-26T09:51:48.598+0000] {logging_mixin.py:190} INFO - Total song records to insert: 71
+[2025-07-26T09:51:48.599+0000] {logging_mixin.py:190} INFO - Loading song record 1/71
+[2025-07-26T09:51:48.602+0000] {logging_mixin.py:190} INFO - Loading song record 2/71
+[2025-07-26T09:51:48.604+0000] {logging_mixin.py:190} INFO - Loading song record 3/71
+[2025-07-26T09:51:48.606+0000] {logging_mixin.py:190} INFO - Loading song record 4/71
+[2025-07-26T09:51:48.608+0000] {logging_mixin.py:190} INFO - Loading song record 5/71
+[2025-07-26T09:51:48.610+0000] {logging_mixin.py:190} INFO - Loading song record 6/71
+[2025-07-26T09:51:48.611+0000] {logging_mixin.py:190} INFO - Loading song record 7/71
+[2025-07-26T09:51:48.613+0000] {logging_mixin.py:190} INFO - Loading song record 8/71
+[2025-07-26T09:51:48.615+0000] {logging_mixin.py:190} INFO - Loading song record 9/71
+[2025-07-26T09:51:48.617+0000] {logging_mixin.py:190} INFO - Loading song record 10/71
+[2025-07-26T09:51:48.618+0000] {logging_mixin.py:190} INFO - Loading song record 11/71
+[2025-07-26T09:51:48.620+0000] {logging_mixin.py:190} INFO - Loading song record 12/71
+[2025-07-26T09:51:48.621+0000] {logging_mixin.py:190} INFO - Loading song record 13/71
+[2025-07-26T09:51:48.622+0000] {logging_mixin.py:190} INFO - Loading song record 14/71
+[2025-07-26T09:51:48.624+0000] {logging_mixin.py:190} INFO - Loading song record 15/71
+[2025-07-26T09:51:48.625+0000] {logging_mixin.py:190} INFO - Loading song record 16/71
+[2025-07-26T09:51:48.626+0000] {logging_mixin.py:190} INFO - Loading song record 17/71
+[2025-07-26T09:51:48.627+0000] {logging_mixin.py:190} INFO - Loading song record 18/71
+[2025-07-26T09:51:48.628+0000] {logging_mixin.py:190} INFO - Loading song record 19/71
+[2025-07-26T09:51:48.629+0000] {logging_mixin.py:190} INFO - Loading song record 20/71
+[2025-07-26T09:51:48.631+0000] {logging_mixin.py:190} INFO - Loading song record 21/71
+[2025-07-26T09:51:48.632+0000] {logging_mixin.py:190} INFO - Loading song record 22/71
+[2025-07-26T09:51:48.634+0000] {logging_mixin.py:190} INFO - Loading song record 23/71
+[2025-07-26T09:51:48.635+0000] {logging_mixin.py:190} INFO - Loading song record 24/71
+[2025-07-26T09:51:48.637+0000] {logging_mixin.py:190} INFO - Loading song record 25/71
+[2025-07-26T09:51:48.638+0000] {logging_mixin.py:190} INFO - Loading song record 26/71
+[2025-07-26T09:51:48.640+0000] {logging_mixin.py:190} INFO - Loading song record 27/71
+[2025-07-26T09:51:48.641+0000] {logging_mixin.py:190} INFO - Loading song record 28/71
+[2025-07-26T09:51:48.642+0000] {logging_mixin.py:190} INFO - Loading song record 29/71
+[2025-07-26T09:51:48.643+0000] {logging_mixin.py:190} INFO - Loading song record 30/71
+[2025-07-26T09:51:48.645+0000] {logging_mixin.py:190} INFO - Loading song record 31/71
+[2025-07-26T09:51:48.646+0000] {logging_mixin.py:190} INFO - Loading song record 32/71
+[2025-07-26T09:51:48.648+0000] {logging_mixin.py:190} INFO - Loading song record 33/71
+[2025-07-26T09:51:48.649+0000] {logging_mixin.py:190} INFO - Loading song record 34/71
+[2025-07-26T09:51:48.650+0000] {logging_mixin.py:190} INFO - Loading song record 35/71
+[2025-07-26T09:51:48.652+0000] {logging_mixin.py:190} INFO - Loading song record 36/71
+[2025-07-26T09:51:48.653+0000] {logging_mixin.py:190} INFO - Loading song record 37/71
+[2025-07-26T09:51:48.654+0000] {logging_mixin.py:190} INFO - Loading song record 38/71
+[2025-07-26T09:51:48.656+0000] {logging_mixin.py:190} INFO - Loading song record 39/71
+[2025-07-26T09:51:48.657+0000] {logging_mixin.py:190} INFO - Loading song record 40/71
+[2025-07-26T09:51:48.659+0000] {logging_mixin.py:190} INFO - Loading song record 41/71
+[2025-07-26T09:51:48.660+0000] {logging_mixin.py:190} INFO - Loading song record 42/71
+[2025-07-26T09:51:48.661+0000] {logging_mixin.py:190} INFO - Loading song record 43/71
+[2025-07-26T09:51:48.662+0000] {logging_mixin.py:190} INFO - Loading song record 44/71
+[2025-07-26T09:51:48.664+0000] {logging_mixin.py:190} INFO - Loading song record 45/71
+[2025-07-26T09:51:48.665+0000] {logging_mixin.py:190} INFO - Loading song record 46/71
+[2025-07-26T09:51:48.666+0000] {logging_mixin.py:190} INFO - Loading song record 47/71
+[2025-07-26T09:51:48.668+0000] {logging_mixin.py:190} INFO - Loading song record 48/71
+[2025-07-26T09:51:48.669+0000] {logging_mixin.py:190} INFO - Loading song record 49/71
+[2025-07-26T09:51:48.670+0000] {logging_mixin.py:190} INFO - Loading song record 50/71
+[2025-07-26T09:51:48.671+0000] {logging_mixin.py:190} INFO - Loading song record 51/71
+[2025-07-26T09:51:48.673+0000] {logging_mixin.py:190} INFO - Loading song record 52/71
+[2025-07-26T09:51:48.674+0000] {logging_mixin.py:190} INFO - Loading song record 53/71
+[2025-07-26T09:51:48.675+0000] {logging_mixin.py:190} INFO - Loading song record 54/71
+[2025-07-26T09:51:48.677+0000] {logging_mixin.py:190} INFO - Loading song record 55/71
+[2025-07-26T09:51:48.678+0000] {logging_mixin.py:190} INFO - Loading song record 56/71
+[2025-07-26T09:51:48.681+0000] {logging_mixin.py:190} INFO - Loading song record 57/71
+[2025-07-26T09:51:48.684+0000] {logging_mixin.py:190} INFO - Loading song record 58/71
+[2025-07-26T09:51:48.686+0000] {logging_mixin.py:190} INFO - Loading song record 59/71
+[2025-07-26T09:51:48.691+0000] {logging_mixin.py:190} INFO - Loading song record 60/71
+[2025-07-26T09:51:48.692+0000] {logging_mixin.py:190} INFO - Loading song record 61/71
+[2025-07-26T09:51:48.694+0000] {logging_mixin.py:190} INFO - Loading song record 62/71
+[2025-07-26T09:51:48.696+0000] {logging_mixin.py:190} INFO - Loading song record 63/71
+[2025-07-26T09:51:48.698+0000] {logging_mixin.py:190} INFO - Loading song record 64/71
+[2025-07-26T09:51:48.700+0000] {logging_mixin.py:190} INFO - Loading song record 65/71
+[2025-07-26T09:51:48.701+0000] {logging_mixin.py:190} INFO - Loading song record 66/71
+[2025-07-26T09:51:48.703+0000] {logging_mixin.py:190} INFO - Loading song record 67/71
+[2025-07-26T09:51:48.705+0000] {logging_mixin.py:190} INFO - Loading song record 68/71
+[2025-07-26T09:51:48.707+0000] {logging_mixin.py:190} INFO - Loading song record 69/71
+[2025-07-26T09:51:48.708+0000] {logging_mixin.py:190} INFO - Loading song record 70/71
+[2025-07-26T09:51:48.710+0000] {logging_mixin.py:190} INFO - Loading song record 71/71
+[2025-07-26T09:51:48.714+0000] {logging_mixin.py:190} INFO - Successfully loaded 71 song records
+[2025-07-26T09:51:48.715+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-26T09:51:48.747+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-26T09:51:48.749+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres_test2, task_id=stage_songs, run_id=manual__2025-07-26T09:51:44.063386+00:00, execution_date=20250726T095144, start_date=20250726T095147, end_date=20250726T095148
+[2025-07-26T09:51:48.828+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-26T09:51:48.906+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T09:51:48.909+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

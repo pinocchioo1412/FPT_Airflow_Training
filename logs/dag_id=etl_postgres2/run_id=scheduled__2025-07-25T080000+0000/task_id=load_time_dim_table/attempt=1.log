@@ -1,0 +1,21 @@
+[2025-07-25T09:58:30.683+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-25T09:58:30.736+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres2.load_time_dim_table scheduled__2025-07-25T08:00:00+00:00 [queued]>
+[2025-07-25T09:58:30.763+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres2.load_time_dim_table scheduled__2025-07-25T08:00:00+00:00 [queued]>
+[2025-07-25T09:58:30.765+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-25T09:58:30.820+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_time_dim_table> on 2025-07-25 08:00:00+00:00
+[2025-07-25T09:58:30.854+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=601) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-25T09:58:30.850+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres2', 'load_time_dim_table', 'scheduled__2025-07-25T08:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp4prt7yzu']
+[2025-07-25T09:58:30.857+0000] {standard_task_runner.py:72} INFO - Started process 612 to run task
+[2025-07-25T09:58:30.860+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask load_time_dim_table
+[2025-07-25T09:58:31.066+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres2.load_time_dim_table scheduled__2025-07-25T08:00:00+00:00 [running]> on host 72bd964f8e11
+[2025-07-25T09:58:31.303+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres2' AIRFLOW_CTX_TASK_ID='load_time_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-25T08:00:00+00:00'
+[2025-07-25T09:58:31.306+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-25T09:58:32.145+0000] {etl_dag.py:436} INFO - Loading time dimension table
+[2025-07-25T09:58:32.167+0000] {etl_dag.py:462} INFO - Inserted 0 records into time table
+[2025-07-25T09:58:32.169+0000] {etl_dag.py:465} INFO - Time dimension table loaded successfully
+[2025-07-25T09:58:32.171+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-25T09:58:32.204+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-25T09:58:32.207+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres2, task_id=load_time_dim_table, run_id=scheduled__2025-07-25T08:00:00+00:00, execution_date=20250725T080000, start_date=20250725T095830, end_date=20250725T095832
+[2025-07-25T09:58:32.322+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-25T09:58:32.397+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-25T09:58:32.412+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2025-07-22T04:25:45.671+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-22T04:25:45.696+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.print_input_number manual__2025-07-22T04:25:44.696391+00:00 [queued]>
+[2025-07-22T04:25:45.713+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.print_input_number manual__2025-07-22T04:25:44.696391+00:00 [queued]>
+[2025-07-22T04:25:45.714+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-07-22T04:25:45.737+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): print_input_number> on 2025-07-22 04:25:44.696391+00:00
+[2025-07-22T04:25:45.749+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=190) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-22T04:25:45.751+0000] {standard_task_runner.py:72} INFO - Started process 191 to run task
+[2025-07-22T04:25:45.748+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'my_dag', 'print_input_number', 'manual__2025-07-22T04:25:44.696391+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/my_dags.py', '--cfg-path', '/tmp/tmpkvralajj']
+[2025-07-22T04:25:45.753+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask print_input_number
+[2025-07-22T04:25:45.833+0000] {task_command.py:467} INFO - Running <TaskInstance: my_dag.print_input_number manual__2025-07-22T04:25:44.696391+00:00 [running]> on host 163049dd0076
+[2025-07-22T04:25:45.959+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='print_input_number' AIRFLOW_CTX_EXECUTION_DATE='2025-07-22T04:25:44.696391+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-22T04:25:44.696391+00:00'
+[2025-07-22T04:25:45.963+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-22T04:25:46.006+0000] {logging_mixin.py:190} INFO - Input number: 10
+[2025-07-22T04:25:46.007+0000] {python.py:240} INFO - Done. Returned value was: 10
+[2025-07-22T04:25:46.038+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-22T04:25:46.039+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=print_input_number, run_id=manual__2025-07-22T04:25:44.696391+00:00, execution_date=20250722T042544, start_date=20250722T042545, end_date=20250722T042546
+[2025-07-22T04:25:46.089+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-22T04:25:46.109+0000] {taskinstance.py:3895} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2025-07-22T04:25:46.112+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

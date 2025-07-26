@@ -1,0 +1,308 @@
+[2025-07-26T09:57:13.049+0000] {processor.py:186} INFO - Started process (PID=1070) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:13.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:57:13.054+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:13.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:13.135+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:13.504+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:13.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:57:13.541+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:13.540+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:57:13.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.543 seconds
+[2025-07-26T09:57:44.266+0000] {processor.py:186} INFO - Started process (PID=1094) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:44.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:57:44.272+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:44.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:44.321+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:57:44.368+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:44.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:57:44.406+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:57:44.406+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:57:44.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.193 seconds
+[2025-07-26T09:58:14.637+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:14.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:58:14.644+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:14.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:14.690+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:14.732+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:14.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:58:14.764+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:14.764+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:58:14.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.174 seconds
+[2025-07-26T09:58:45.172+0000] {processor.py:186} INFO - Started process (PID=1123) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:45.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:58:45.177+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:45.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:45.221+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:58:45.287+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:45.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:58:45.346+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:58:45.345+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:58:45.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.218 seconds
+[2025-07-26T09:59:15.767+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:15.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:59:15.772+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:15.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:15.816+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:15.871+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:15.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:59:15.926+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:15.926+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:59:15.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.212 seconds
+[2025-07-26T09:59:46.342+0000] {processor.py:186} INFO - Started process (PID=1177) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:46.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T09:59:46.345+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:46.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:46.395+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T09:59:46.443+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:46.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T09:59:46.479+0000] {logging_mixin.py:190} INFO - [2025-07-26T09:59:46.479+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T09:59:46.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.175 seconds
+[2025-07-26T10:00:16.883+0000] {processor.py:186} INFO - Started process (PID=1222) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:16.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:00:16.888+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:16.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:16.934+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:16.985+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:16.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:00:17.024+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:17.023+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:00:17.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.182 seconds
+[2025-07-26T10:00:47.375+0000] {processor.py:186} INFO - Started process (PID=1240) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:47.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:00:47.378+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:47.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:47.399+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:00:47.431+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:47.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:00:47.465+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:00:47.465+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:00:47.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.128 seconds
+[2025-07-26T10:01:17.770+0000] {processor.py:186} INFO - Started process (PID=1258) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:17.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:01:17.773+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:17.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:17.795+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:17.826+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:17.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:01:17.853+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:17.853+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:01:17.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.112 seconds
+[2025-07-26T10:01:48.169+0000] {processor.py:186} INFO - Started process (PID=1276) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:48.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:01:48.174+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:48.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:48.215+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:01:48.252+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:48.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:01:48.298+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:01:48.298+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:01:48.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.176 seconds
+[2025-07-26T10:02:18.823+0000] {processor.py:186} INFO - Started process (PID=1294) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:18.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:02:18.826+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:18.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:18.853+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:18.880+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:18.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:02:18.903+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:18.902+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:02:18.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.104 seconds
+[2025-07-26T10:02:49.263+0000] {processor.py:186} INFO - Started process (PID=1312) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:49.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:02:49.270+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:49.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:49.336+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:02:49.413+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:49.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:02:49.482+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:02:49.482+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:02:49.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.274 seconds
+[2025-07-26T10:03:19.891+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:19.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:03:19.894+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:19.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:19.923+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:19.958+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:19.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:03:19.998+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:19.998+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:03:20.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.144 seconds
+[2025-07-26T10:03:50.192+0000] {processor.py:186} INFO - Started process (PID=1348) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:50.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:03:50.195+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:50.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:50.217+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:03:50.247+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:50.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:03:50.278+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:03:50.278+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:03:50.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.116 seconds
+[2025-07-26T10:04:20.613+0000] {processor.py:186} INFO - Started process (PID=1366) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:20.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:04:20.618+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:20.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:20.657+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:20.695+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:20.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:04:20.721+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:20.721+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:04:20.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.136 seconds
+[2025-07-26T10:04:51.039+0000] {processor.py:186} INFO - Started process (PID=1383) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:51.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:04:51.043+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:51.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:51.074+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:04:51.143+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:51.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:04:51.187+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:04:51.186+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:04:51.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.184 seconds
+[2025-07-26T10:05:21.543+0000] {processor.py:186} INFO - Started process (PID=1394) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:21.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:05:21.547+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:21.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:21.580+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:21.622+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:21.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:05:21.663+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:21.662+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:05:21.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.167 seconds
+[2025-07-26T10:05:51.991+0000] {processor.py:186} INFO - Started process (PID=1412) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:51.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:05:51.994+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:51.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:52.019+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:05:52.052+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:52.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:05:52.083+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:05:52.082+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:05:52.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.124 seconds
+[2025-07-26T10:06:22.377+0000] {processor.py:186} INFO - Started process (PID=1430) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:22.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:06:22.380+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:22.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:22.402+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:22.434+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:22.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:06:22.459+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:22.458+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:06:22.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.108 seconds
+[2025-07-26T10:06:52.838+0000] {processor.py:186} INFO - Started process (PID=1448) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:52.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:06:52.842+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:52.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:52.878+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:06:52.922+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:52.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:06:52.966+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:06:52.966+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:06:52.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.164 seconds
+[2025-07-26T10:07:23.341+0000] {processor.py:186} INFO - Started process (PID=1466) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:23.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:07:23.344+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:23.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:23.377+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:23.427+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:23.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:07:23.478+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:23.478+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:07:23.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.172 seconds
+[2025-07-26T10:07:53.624+0000] {processor.py:186} INFO - Started process (PID=1484) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:53.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:07:53.628+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:53.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:53.662+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:07:53.710+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:53.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:07:53.752+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:07:53.752+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:07:53.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.162 seconds
+[2025-07-26T10:08:24.068+0000] {processor.py:186} INFO - Started process (PID=1502) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:24.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:08:24.071+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:24.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:24.092+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:24.123+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:24.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:08:24.149+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:24.149+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:08:24.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.105 seconds
+[2025-07-26T10:08:54.451+0000] {processor.py:186} INFO - Started process (PID=1520) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:54.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:08:54.457+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:54.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:54.506+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:08:54.552+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:54.551+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:08:54.582+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:08:54.581+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:08:54.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.161 seconds
+[2025-07-26T10:09:24.879+0000] {processor.py:186} INFO - Started process (PID=1538) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:24.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:09:24.882+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:24.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:24.907+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:24.939+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:24.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:09:24.967+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:24.966+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:09:24.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.114 seconds
+[2025-07-26T10:09:55.293+0000] {processor.py:186} INFO - Started process (PID=1556) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:55.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:09:55.295+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:55.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:55.319+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:09:55.353+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:55.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:09:55.387+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:09:55.387+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:09:55.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.127 seconds
+[2025-07-26T10:10:25.695+0000] {processor.py:186} INFO - Started process (PID=1574) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:25.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:10:25.697+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:25.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:25.717+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:25.753+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:25.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:10:25.787+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:25.787+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:10:25.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.124 seconds
+[2025-07-26T10:10:56.070+0000] {processor.py:186} INFO - Started process (PID=1592) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:56.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:10:56.073+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:56.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:56.097+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:10:56.126+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:56.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:10:56.162+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:10:56.161+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:10:56.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.124 seconds
+[2025-07-26T10:11:26.504+0000] {processor.py:186} INFO - Started process (PID=1610) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:26.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:11:26.508+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:26.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:26.546+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:26.602+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:26.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:11:26.678+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:26.677+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:11:26.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.229 seconds
+[2025-07-26T10:11:56.812+0000] {processor.py:186} INFO - Started process (PID=1620) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:56.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:11:56.818+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:56.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:56.865+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:11:56.929+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:56.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:11:56.979+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:11:56.978+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:11:57.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.216 seconds
+[2025-07-26T10:12:27.475+0000] {processor.py:186} INFO - Started process (PID=1638) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:27.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:12:27.478+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:27.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:27.506+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:27.542+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:27.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:12:27.575+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:27.575+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:12:27.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.132 seconds
+[2025-07-26T10:12:57.912+0000] {processor.py:186} INFO - Started process (PID=1656) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:57.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:12:57.914+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:57.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:57.936+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:12:57.979+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:57.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:12:58.024+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:12:58.024+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:12:58.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.144 seconds
+[2025-07-26T10:13:28.352+0000] {processor.py:186} INFO - Started process (PID=1674) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:28.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:13:28.354+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:28.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:28.375+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:28.402+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:28.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:13:28.433+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:28.432+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:13:28.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.110 seconds
+[2025-07-26T10:13:58.772+0000] {processor.py:186} INFO - Started process (PID=1692) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:58.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:13:58.777+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:58.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:58.821+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:13:58.864+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:58.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:13:58.906+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:13:58.906+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:13:58.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.181 seconds
+[2025-07-26T10:14:29.264+0000] {processor.py:186} INFO - Started process (PID=1710) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:29.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:14:29.268+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:29.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:29.300+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:29.347+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:29.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:14:29.382+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:29.382+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:14:29.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.151 seconds
+[2025-07-26T10:14:59.701+0000] {processor.py:186} INFO - Started process (PID=1728) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:59.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:14:59.703+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:59.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:59.727+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:14:59.765+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:59.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:14:59.820+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:14:59.820+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:14:59.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.163 seconds
+[2025-07-26T10:15:30.176+0000] {processor.py:186} INFO - Started process (PID=1746) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:15:30.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:15:30.180+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:15:30.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:15:30.229+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:15:30.283+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:15:30.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:15:30.322+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:15:30.321+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:15:30.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.185 seconds
+[2025-07-26T10:16:00.683+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:00.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:16:00.687+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:00.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:00.730+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:00.784+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:00.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:16:00.833+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:00.832+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:16:00.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.193 seconds
+[2025-07-26T10:16:31.177+0000] {processor.py:186} INFO - Started process (PID=1782) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:31.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:16:31.182+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:31.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:31.206+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:16:31.248+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:31.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:16:31.294+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:16:31.294+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:16:31.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.154 seconds
+[2025-07-26T10:17:01.706+0000] {processor.py:186} INFO - Started process (PID=1800) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:01.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:17:01.711+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:01.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:01.771+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:01.849+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:01.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:17:01.904+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:01.904+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:17:01.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.257 seconds
+[2025-07-26T10:17:32.411+0000] {processor.py:186} INFO - Started process (PID=1818) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:32.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:17:32.415+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:32.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:32.451+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:17:32.498+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:32.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:17:32.541+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:17:32.541+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:17:32.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.170 seconds
+[2025-07-26T10:18:02.977+0000] {processor.py:186} INFO - Started process (PID=1836) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:02.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:18:02.982+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:02.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:03.017+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:03.069+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:03.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:18:03.105+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:03.105+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:18:03.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.175 seconds
+[2025-07-26T10:18:33.407+0000] {processor.py:186} INFO - Started process (PID=1853) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:33.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:18:33.414+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:33.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:33.487+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:18:33.571+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:33.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:18:33.642+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:18:33.642+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:18:33.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.291 seconds
+[2025-07-26T10:19:03.987+0000] {processor.py:186} INFO - Started process (PID=1864) to work on /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:19:03.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag_test.py for tasks to queue
+[2025-07-26T10:19:03.990+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:19:03.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:19:04.012+0000] {processor.py:925} INFO - DAG(s) 'etl_postgres_test' retrieved from /opt/airflow/dags/etl_dag_test.py
+[2025-07-26T10:19:04.042+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:19:04.042+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-26T10:19:04.068+0000] {logging_mixin.py:190} INFO - [2025-07-26T10:19:04.068+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_postgres_test to 2025-07-26 09:00:00+00:00, run_after=2025-07-26 10:00:00+00:00
+[2025-07-26T10:19:04.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag_test.py took 0.107 seconds

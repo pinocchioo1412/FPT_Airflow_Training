@@ -1,0 +1,21 @@
+[2025-07-26T09:10:47.563+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-07-26T09:10:47.630+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres_test.load_song_dim_table scheduled__2025-07-26T08:00:00+00:00 [queued]>
+[2025-07-26T09:10:47.659+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres_test.load_song_dim_table scheduled__2025-07-26T08:00:00+00:00 [queued]>
+[2025-07-26T09:10:47.661+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-07-26T09:10:47.731+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_song_dim_table> on 2025-07-26 08:00:00+00:00
+[2025-07-26T09:10:47.767+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=260) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T09:10:47.768+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_postgres_test', 'load_song_dim_table', 'scheduled__2025-07-26T08:00:00+00:00', '--job-id', '141', '--raw', '--subdir', 'DAGS_FOLDER/my_dags.py', '--cfg-path', '/tmp/tmpdcwslnsv']
+[2025-07-26T09:10:47.780+0000] {standard_task_runner.py:105} INFO - Job 141: Subtask load_song_dim_table
+[2025-07-26T09:10:47.782+0000] {standard_task_runner.py:72} INFO - Started process 273 to run task
+[2025-07-26T09:10:48.022+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres_test.load_song_dim_table scheduled__2025-07-26T08:00:00+00:00 [running]> on host 72bd964f8e11
+[2025-07-26T09:10:48.921+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_postgres_test' AIRFLOW_CTX_TASK_ID='load_song_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-26T08:00:00+00:00'
+[2025-07-26T09:10:48.928+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-07-26T09:10:48.978+0000] {my_dags.py:339} INFO - Loading song dimension table
+[2025-07-26T09:10:48.983+0000] {my_dags.py:358} INFO - Inserted 0 records into songs table
+[2025-07-26T09:10:48.985+0000] {my_dags.py:361} INFO - Song dimension table loaded successfully
+[2025-07-26T09:10:48.987+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-07-26T09:10:49.010+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-26T09:10:49.012+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres_test, task_id=load_song_dim_table, run_id=scheduled__2025-07-26T08:00:00+00:00, execution_date=20250726T080000, start_date=20250726T091047, end_date=20250726T091049
+[2025-07-26T09:10:49.113+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-26T09:10:49.221+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T09:10:49.229+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
